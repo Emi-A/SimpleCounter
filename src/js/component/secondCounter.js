@@ -2,7 +2,6 @@ import React from "react";
 //poner aqui los props de card <Card props={aux} />
 import PropTypes from "prop-types";
 //importar card
-import { CardTime } from "./card.js";
 
 //create your first component
 export function Home(props) {
@@ -48,14 +47,14 @@ export function Home(props) {
 				<div className="col-1">
 					<h1>
 						<span className="badge bg-secondary border border-light">
-							{props.dig1}
+							{props.dig1 % 10}
 						</span>
 					</h1>
 				</div>
 				<div className="col-1">
 					<h1>
 						<span className="badge bg-secondary border border-light">
-							{props.dig0 % 60}
+							{props.dig0 % 10}
 						</span>
 					</h1>
 				</div>
