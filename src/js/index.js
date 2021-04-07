@@ -21,8 +21,8 @@ let second_counter = 0;
 
 setInterval(function(props) {
 	num0 = Math.floor(second_counter / 1);
-	num1 = Math.floor(second_counter / 100);
-	num2 = Math.floor(second_counter / 1000);
+	num1 = Math.floor(second_counter / 10);
+	num2 = Math.floor(second_counter / 100);
 	num3 = Math.floor(second_counter / 1000);
 	num4 = Math.floor(second_counter / 10000);
 	num5 = Math.floor(second_counter / 10000);
